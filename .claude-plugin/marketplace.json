@@ -1,0 +1,44 @@
+{
+  "name": "dk-code-factory",
+  "owner": {
+    "name": "dk-code-factory"
+  },
+  "plugins": [
+    {
+      "name": "dk-workflows",
+      "source": {
+        "source": "github",
+        "repo": "dk-code-factory/dk-workflows",
+        "ref": "main"
+      },
+      "description": "dk-workflows"
+    },
+    {
+      "name": "code-review-ad",
+      "source": {
+        "source": "github",
+        "repo": "dk-code-factory/code-review-ad",
+        "ref": "main"
+      },
+      "description": "code-review-ad"
+    },
+    {
+      "name": "code-review-matpocock",
+      "source": {
+        "source": "github",
+        "repo": "dk-code-factory/code-review-matpocock",
+        "ref": "main"
+      },
+      "description": "code-review-matpocock"
+    },
+    {
+      "name": "code-review-qodo",
+      "source": {
+        "source": "github",
+        "repo": "dk-code-factory/code-review-qodo",
+        "ref": "main"
+      },
+      "description": "code-review-qodo"
+    }
+  ]
+}

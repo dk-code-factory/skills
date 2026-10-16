@@ -1,0 +1,60 @@
+{
+  "name": "dk-code-factory",
+  "interface": {
+    "displayName": "DK Code Factory"
+  },
+  "plugins": [
+    {
+      "name": "dk-workflows",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dk-code-factory/dk-workflows.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-review-ad",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dk-code-factory/code-review-ad.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-review-matpocock",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dk-code-factory/code-review-matpocock.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-review-qodo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dk-code-factory/code-review-qodo.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
