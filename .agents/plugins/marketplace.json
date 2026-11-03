@@ -18,6 +18,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dk-pr-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dk-code-factory/dk-pr-skills.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dk-architecture",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dk-code-factory/dk-architecture.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "code-review-ad",
       "source": {
         "source": "url",
