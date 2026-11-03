@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parent.parent
-expected=['dk-workflows','dk-pr-skills','dk-architecture','code-review-ad','code-review-matpocock','code-review-qodo']
+expected=['dk-workflows','dk-architecture','code-review-ad','code-review-matpocock','code-review-qodo']
 for filename,kind in [('.agents/plugins/marketplace.json','url'),('.claude-plugin/marketplace.json','github')]:
     data=json.loads((root/filename).read_text())
     assert data['name']=='dk-code-factory'
