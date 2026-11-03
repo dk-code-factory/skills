@@ -14,15 +14,6 @@
       "description": "dk-workflows"
     },
     {
-      "name": "dk-pr-skills",
-      "source": {
-        "source": "github",
-        "repo": "dk-code-factory/dk-pr-skills",
-        "ref": "main"
-      },
-      "description": "dk-pr-skills"
-    },
-    {
       "name": "dk-architecture",
       "source": {
         "source": "github",
